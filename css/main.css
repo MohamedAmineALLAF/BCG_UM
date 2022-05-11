@@ -26,7 +26,30 @@ Primary use:
   src: url('../fonts/Playlist/Playlist Script.otf'); 
 }
 
+@font-face {
+  font-family: Report;
+  src: url('../fonts/Report/Report\ Regular.ttf'); 
+}
 
+@font-face {
+  font-family: Culture;
+  src: url('../fonts/Culture/Culture.otf'); 
+}
+
+@font-face {
+  font-family: Culture Bol;
+  src: url('../fonts/Culture/Culture-Bold.otf'); 
+}
+
+@font-face {
+  font-family: Mirage-medium;
+  src: url('../fonts/Mirage/MADE\ Mirage\ Medium\ PERSONAL\ USE.otf'); 
+}
+
+@font-face {
+  font-family: Mirage-regular;
+  src: url('../fonts/Mirage/MADE\ Mirage\ Regular\ PERSONAL\ USE.otf'); 
+}
 
 
 
@@ -206,7 +229,7 @@ Primary use:
 
 .l1-txt2 {
   /*font-family: Playlist Script;*/
-  font-family: 'Marcellus', serif;
+  font-family: Mirage-regular;
   font-size: 4.5em;
   color: #fff;
   line-height: 1.1;
@@ -231,8 +254,8 @@ Primary use:
 
 
 .l1-txt3 {
-  font-family: 'Belleza', sans-serif;
-  font-size: 23px;
+  font-family: Mirage-medium;
+  font-size: 1.4rem;
   color: #fff;
   line-height: 1.1;
 }
@@ -376,10 +399,11 @@ Primary use:
 /*---------------------------------------------*/
 .how-social {
   color: #fff;
-  font-size: 20px;
-  border: 1px solid rgba(255,255,255,0.1);
+  font-size: 21px;
+  border: 2px solid #fff;
   background-color: transparent;
   border-radius: 50%;
+  padding: 2px;
 }
 
 .how-social:hover {
